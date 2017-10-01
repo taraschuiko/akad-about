@@ -1,0 +1,369 @@
+body{
+
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+
+.menu_icon_cont *, .menu_icon:after {
+	-webkit-transition: all .3s linear;
+	   -moz-transition: all .3s linear;
+	    -ms-transition: all .3s linear;
+	     -o-transition: all .3s linear;
+	        transition: all .3s linear;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Montserrat;
+	color: #60606e;
+	font-weight: 700;
+}
+
+
+.ba-15-container {
+	width: 90%;
+	min-width: 800px;
+	max-width: 1700px;
+	margin: 0 auto;
+}
+
+/*Header*/
+
+.ba-header {
+	background: url(../img/header-bg.png) no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	min-height: 500px;
+	position: relative;
+}
+
+.ba-menu-row {
+	padding-top: 40px;
+}
+
+.menu_icon_cont {
+	width: 31px;
+	position: relative;
+	height: 30px;
+	float: right;
+	cursor: pointer;
+}
+
+.menu_icon {
+	position: absolute;
+	top: 50%;
+	height: 2px;
+	width: 15px;
+	background: #000;
+}
+
+.menu_icon_cont:hover > .menu_icon,
+.menu_icon_cont:hover > .menu_icon:after {
+	width: 31px;
+}
+
+.menu_icon:before {
+	position: absolute;
+	top: -10px;
+	content: '';
+	display: block;
+	height: 2px;
+	width: 31px;
+	background: #000;
+}
+
+.menu_icon:after {
+	position: absolute;
+	bottom: -10px;
+	content: '';
+	display: block;
+	height: 2px;
+	width: 20px;
+	background: #000;
+}
+
+.ba-title h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ba-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.ba-title h1 {
+	font-size: 36px;
+}
+
+.ba-path {
+	list-style: none;
+	color: #60606E;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 0;
+}
+
+.ba-path li {
+	display: inline;
+}
+
+.ba-path li:not(:last-child):after {
+	content: "\00a0/";
+}
+
+.ba-path a {
+	text-decoration: none;
+	color: #60606E;
+}
+
+.ba-path a:hover {
+	text-decoration: underline;
+}
+
+.ba-path > li:last-child > a {
+	pointer-events: none;
+}
+
+/*Main*/
+
+main {
+	padding-top: 140px;
+}
+
+main .ba-row {
+	margin-bottom: 80px;
+}
+
+main h1 {
+	position: relative;
+	z-index: 1;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+main h1:before {
+	content: '';
+	display: block;
+	background-color: #7BEEC7;
+	position: absolute;
+	bottom: 6px;
+	left: -2px;
+	width: 68px;
+	height: 21px;
+	z-index: -1;
+}
+
+main .h1center {
+	display: inline-block;
+}
+
+main h3 {
+	text-transform: uppercase;
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 1.71;
+}
+
+main p {
+	font-family: Open Sans;
+	font-size: 14px;
+	line-height: 2.14;
+	text-align: left;
+	color: #60606e;
+	clear: both;
+}
+
+.title-center * {
+	text-align: center;
+}
+
+.title-center {
+	margin: 50px 0;
+}
+
+.icon-block {
+	width: 40px;
+	height: 40px;
+	background: #7BEEC7;
+	color: #FFF;
+	font-size: 30px;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	float: left;
+	margin-right: 20px;
+}
+
+main h2 {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	color: #60606e;
+	float: left;
+	margin-top: 10px;
+}
+
+.team-image {
+	margin-bottom: 20px;
+}
+
+/*Footer*/
+
+.ba-footer {
+	background: #7BEEC7;
+	padding: 50px 0;
+}
+
+.ba-footer h1 {
+	text-align: left;
+	color: #ffffff;
+	margin: 0;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+.ba-footer p {
+	font-family: Open Sans;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: left;
+	color: #999999;
+}
+
+.footer-button {
+	background: #FFF;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #7beec7;
+	text-transform: uppercase;
+	border: none;
+	padding: 20px 30px;
+}
+
+.subscribe-card {
+	background: #FFF;
+	padding: 20px 24px;
+}
+
+.subscribe-card h2 {
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 18px;
+}
+
+.subscribe {
+	margin-left: 0;
+}
+
+.subscribe__email {
+	padding: 20px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe__email::placeholder {
+	color: #cdcdcd;
+}
+
+.subscribe-button {
+	background: #7beec7;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 20px 30px;
+}
+
+.subscribe-button:hover {
+	background: #4fcca1;
+}
+
+
+
+
+
+
+
+
