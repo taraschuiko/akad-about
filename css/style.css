@@ -316,6 +316,10 @@ main h2 {
 	padding: 20px 30px;
 }
 
+.footer-button:hover {
+	margin: 2px 0 0 2px;
+}
+
 .subscribe-card {
 	background: #FFF;
 	padding: 20px 24px;
